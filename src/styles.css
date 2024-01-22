@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centered-page {
+  @apply max-w-screen-lg mx-auto my-6
+}
+.centered-page.sm {
+  @apply w-96
+}
+
+.page-title {
+  @apply text-3xl my-6
+}
+
+.btn {
+  @apply bg-sky-600 px-2 py-1 rounded-xl text-white
+}
+
+.alert {
+  @apply border-4 border-black rounded-xl p-5 my-3
+}
+.alert-primary {
+  @apply bg-sky-600 text-white
+}
+.alert-danger {
+  @apply bg-red-600 text-white
+}
+.alert-success {
+  @apply bg-green-200 text-black
+}
+
+
+input {
+  @apply border border-black rounded-xl
+}
